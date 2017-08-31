@@ -18,10 +18,9 @@ import java.util.Scanner; //import Scanner class to read user inpput from keyboa
      * Note: Algorithm is capable of doing fractional division.
      * 
      * @param args the command line arguments
-     * @throws java.io.IOException
      * 
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
         //define local variables
         boolean addition = false;
         boolean subtraction = false;

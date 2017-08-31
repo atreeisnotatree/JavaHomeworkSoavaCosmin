@@ -20,7 +20,9 @@ public class Label {
     private int carPrice;
     String labelStatus;
    
-
+    public int getCarPrice(){
+        return carPrice;
+    }
     
     public int getSalePrice(){
         return carPrice;
@@ -71,8 +73,10 @@ public class Label {
         switch(l){
             case FORSALE:
                 labelStatus = "Car for sale";
+                break;
             case FORRENT:
                 labelStatus = "Car for renting";
+                break;
             case SOLD:
                 labelStatus = "This car has been sold";
                 break;
