@@ -9,9 +9,13 @@ package multithreading;
  *
  * @author atreeisnotatree
  */
-public class Trabuc {
+public class Trabuc extends Thread{
     
     public void arde(){
         
+    }
+    @Override
+    public void run(){
+        arde();
     }
 }

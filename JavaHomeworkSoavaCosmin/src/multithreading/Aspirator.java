@@ -9,9 +9,14 @@ package multithreading;
  *
  * @author atreeisnotatree
  */
-public class Aspirator {
+public class Aspirator extends Thread{
     
     public void aspira(){
         
     }
+    
+    @Override
+    public void run(){
+        aspira();
+}
 }
